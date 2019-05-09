@@ -1,17 +1,19 @@
 {
-  "name": "vanillajs-hello",
+  "name": "excuse-generator",
   "version": "1.0.0",
-  "description": "Professional Boilerplate for Vanilla.js Web Apps",
+  "description": "Excuse Generator with Vanilla Js",
+  "homepage": "https://amart31.github.io/excuse-generator",
   "main": "index.js",
   "scripts": {
     "c9": "echo The webpack development server cannot be used on this project && echo Please run: $ npm run build",
     "dev-server": "echo The webpack development server cannot be used on this project,[0m Please run $ npm run build",
     "build": "webpack --mode development",
-    "deploy": "node deploy-to-github.js"
+    "predeploy": "npm run build",
+		"deploy": "node deploy-to-github.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4GeeksAcademy/vanillajs-hello.git"
+    "url": "git+https://github.com/amart31/Instagram-photo-grid-clone.git"
   },
   "keywords": [
     "Vanilla.js",
